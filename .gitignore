@@ -1,0 +1,68 @@
+# Diretórios e arquivos do Maven
+/target/
+/.mvn/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Diretórios e arquivos do Gradle
+.gradle
+/build/
+!gradle-wrapper.jar
+gradle-app.setting
+
+# Configurações da IDE IntelliJ IDEA
+/.idea/
+/*.iml
+*.iws
+*.ipr
+/out/
+
+# Configurações da IDE Eclipse
+/.project
+/.classpath
+/.settings/
+/target/
+
+# Arquivos de configuração do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de log
+*.log
+*.log.*
+
+# Arquivos de propriedades específicas do ambiente
+*.properties
+*.yml
+*.yaml
+
+# Arquivos de banco de dados H2
+*.h2.db
+*.mv.db
+*.trace.db
+
+# Arquivos específicos do Spring Boot
+/spring-boot-devtools.properties
+/.env
+
+# Arquivos gerados pelo IDE ou ferramentas de build
+/.factorypath
+/.gradle
+/.idea
+/.classpath
+/.project
+/.settings
+/target/
+**/hs_err_pid*.log
+
+# Certificados
+*.pem
+*.key
+*.crt
+
+# Arquivos temporários e de cache
+*.tmp
+*.swp
